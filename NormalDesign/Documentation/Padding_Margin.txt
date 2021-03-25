@@ -1,0 +1,14 @@
+Resources Link:-
+
+
+https://singhajit.com/android-padding-vs-margin/
+
+
+Margin:-
+Margin is a way for a view to enforce some distance from others views. By specifying margin for a view, we say that keep this much distance from this view. Android has 5 kinds of margins.
+
+1)margin - keep distance on all the four sides
+2)marginLeft - keep distance from left side of the view
+3)marginRight - keep distance from right side of the view
+4)marginTop - keep distance from top of the view
+5)marginBottom - keep distance from bottom of the view

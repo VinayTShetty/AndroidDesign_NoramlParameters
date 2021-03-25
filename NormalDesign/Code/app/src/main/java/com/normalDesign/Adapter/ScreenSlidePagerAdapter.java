@@ -19,13 +19,11 @@ public class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-        switch (position){
+        switch (position) {
             case 0:
                 return new Fragment_layout_Margin();
-
             case 1:
                 return new Fragment_Margin_Right();
-
             case 2:
                 return new Fragment_Margin_Left();
             case 3:
@@ -38,6 +36,6 @@ public class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return 5;
     }
 }

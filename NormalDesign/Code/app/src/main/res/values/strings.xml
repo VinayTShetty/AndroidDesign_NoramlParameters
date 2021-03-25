@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NormalDesign</string>
+    <string name="layout_margin">Layout Margin</string>
+    <string name="layout_margin_right">Margin Right</string>
+    <string name="layout_margin_left">Margin Left</string>
+    <string name="layout_margin_top">Margin Top</string>
+    <string name="layout_margin_bottom">Margin Bottom</string>
 </resources>
