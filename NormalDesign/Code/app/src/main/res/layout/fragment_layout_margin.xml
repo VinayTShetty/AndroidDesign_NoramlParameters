@@ -10,7 +10,18 @@
         android:textAllCaps="false"
         android:layout_margin="20dp">
     </Button>
-
+    <TextView
+        android:id="@+id/layout_desc"
+        android:layout_above="@+id/fra_desc_layout_margin"
+        android:layout_width="wrap_content"
+        android:text="@string/layout_margin_desc"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content">
+    </TextView>
     <TextView
         android:id="@+id/fra_desc_layout_margin"
         android:layout_width="match_parent"

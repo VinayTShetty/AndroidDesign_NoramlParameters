@@ -9,4 +9,16 @@
     <string name="layout_margin_horizontal">Margin Horizontal :- Specifies extra space on the left and right sides of this view. </string>
     <string name="layout_margin_vertical">Margin Vertical :-Specifies extra space on the top and bottom sides of this view. </string>
     <string name="layout_margin_start">Margin Start :Specifies extra space on the start side of this view.  </string>
+
+    <string name="layout_margin_desc">layout_margin="20dp" </string>
+    <string name="layout_margin_right_desc"> </string>
+    <string name="layout_margin_left_desc"> </string>
+    <string name="layout_margin_top_desc"> </string>
+    <string name="layout_margin_bottom_desc"> </string>
+    <string name="layout_margin_end_desc"> </string>
+    <string name="layout_margin_horizontal_desc"> </string>
+    <string name="layout_margin_vertical_desc"> </string>
+    <string name="layout_margin_start_desc"> </string>
+
+
 </resources>
