@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 
 import com.normalDesign.R;
 
-public class Fragment_Margin_Right extends BaseFragment {
+public class Fragment_layout_Margin_Vertical_9 extends BaseFragment {
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
@@ -25,7 +25,7 @@ public class Fragment_Margin_Right extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        ViewGroup viewGroup=(ViewGroup)inflater.inflate(R.layout.fragment_layout_margin_right,container,false);
+        ViewGroup viewGroup=(ViewGroup)inflater.inflate(R.layout.fragment_layout_margin_horizontal,container,false);
         return viewGroup;
     }
 

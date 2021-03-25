@@ -11,7 +11,8 @@ import androidx.annotation.Nullable;
 
 import com.normalDesign.R;
 
-public class Fragment_Margin_Left extends BaseFragment {
+
+public class Fragment_Margin_End_3 extends BaseFragment {
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
@@ -25,7 +26,7 @@ public class Fragment_Margin_Left extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        ViewGroup viewGroup=(ViewGroup)inflater.inflate(R.layout.fragment_layout_margin_left,container,false);
+        ViewGroup viewGroup = (ViewGroup) inflater.inflate(R.layout.fragment_layout_margin_end, container, false);
         return viewGroup;
     }
 
@@ -69,3 +70,4 @@ public class Fragment_Margin_Left extends BaseFragment {
         super.onDestroyView();
     }
 }
+

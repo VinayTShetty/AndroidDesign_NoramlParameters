@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">NormalDesign</string>
-    <string name="layout_margin">Layout Margin</string>
-    <string name="layout_margin_right">Margin Right</string>
-    <string name="layout_margin_left">Margin Left</string>
-    <string name="layout_margin_top">Margin Top</string>
-    <string name="layout_margin_bottom">Margin Bottom</string>
+    <string name="layout_margin">Layout Margin:-Specifies extra space on the left, top, right and bottom sides of this view. </string>
+    <string name="layout_margin_right">Margin Right:-Specifies extra space on the right side of this view. </string>
+    <string name="layout_margin_left">Margin Left:-Specifies extra space on the left side of this view. </string>
+    <string name="layout_margin_top">Margin Top:-Specifies extra space on the top side of this view.</string>
+    <string name="layout_margin_bottom">Margin Bottom:-	Specifies extra space on the bottom side of this view. </string>
+    <string name="layout_margin_end">Margin End:-Specifies extra space on the end side of this view. </string>
+    <string name="layout_margin_horizontal">Margin Horizontal :- Specifies extra space on the left and right sides of this view. </string>
+    <string name="layout_margin_vertical">Margin Vertical :-Specifies extra space on the top and bottom sides of this view. </string>
+    <string name="layout_margin_start">Margin Start :Specifies extra space on the start side of this view.  </string>
 </resources>
