@@ -27,6 +27,11 @@ public class Fragment_Margin_Bottom_2 extends BaseFragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup viewGroup=(ViewGroup)inflater.inflate(R.layout.fragment_layout_margin_bottom,container,false);
         return viewGroup;
+        /**
+         * link:-https://stackoverflow.com/questions/8642071/why-marginbottom-not-working
+         * Note:-marginBottom has no effect if you set android:layout_height="wrap_content" for <RelativeLayout>, instead set it as match_parent and check.
+         * so set to match parent.
+         */
     }
 
     @Override
@@ -68,4 +73,6 @@ public class Fragment_Margin_Bottom_2 extends BaseFragment {
     public void onDestroyView() {
         super.onDestroyView();
     }
+
+
 }

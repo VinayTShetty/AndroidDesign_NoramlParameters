@@ -2,9 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Layout Margin"
+        android:textAllCaps="false"
+        android:layout_marginBottom="60dp">
+    </Button>
 
     <TextView
-        android:id="@+id/fra_desc_layout_margin_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -12,5 +18,6 @@
         android:layout_marginBottom="20dp"
         android:text="@string/layout_margin_bottom"
         android:textColor="@color/black"
-        android:textStyle="bold|italic"></TextView>
+        android:textStyle="bold|italic">
+    </TextView>
 </RelativeLayout>

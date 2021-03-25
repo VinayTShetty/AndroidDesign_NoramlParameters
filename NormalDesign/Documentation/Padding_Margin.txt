@@ -12,3 +12,11 @@ Margin is a way for a view to enforce some distance from others views. By specif
 3)marginRight - keep distance from right side of the view
 4)marginTop - keep distance from top of the view
 5)marginBottom - keep distance from bottom of the view
+
+*********************************************************************************************************************************************************************************************************************
+Resource Link:-
+
+https://www.studytonight.com/android/margin-vs-padding
+
+margin means to push outside
+padding means to push inside.
